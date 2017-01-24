@@ -1,0 +1,11 @@
+﻿<Application x:Class="FSX_Tracker.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FSX_Tracker"
+             xmlns:converters="clr-namespace:FSX_Tracker.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converters:ConnectionStateToVisibilityConverter x:Key="ConnectionStateToVisibilityConverter"></converters:ConnectionStateToVisibilityConverter>
+        <converters:InvertedConnectionStateToVisibilityConverter x:Key="InvertedConnectionStateToVisibilityConverter"></converters:InvertedConnectionStateToVisibilityConverter>
+    </Application.Resources>
+</Application>

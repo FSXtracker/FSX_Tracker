@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSX_Tracker", "FSX_Tracker\FSX_Tracker.csproj", "{383F9EA8-EF02-4205-B1EA-A082B4A3A4DB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FSX_Tracker_Setup", "FSX_Tracker_Setup\FSX_Tracker_Setup.vdproj", "{0C49740A-AFC0-40AD-BD43-07EB5055288C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383F9EA8-EF02-4205-B1EA-A082B4A3A4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383F9EA8-EF02-4205-B1EA-A082B4A3A4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383F9EA8-EF02-4205-B1EA-A082B4A3A4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383F9EA8-EF02-4205-B1EA-A082B4A3A4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C49740A-AFC0-40AD-BD43-07EB5055288C}.Debug|Any CPU.ActiveCfg = Debug
+		{0C49740A-AFC0-40AD-BD43-07EB5055288C}.Debug|Any CPU.Build.0 = Debug
+		{0C49740A-AFC0-40AD-BD43-07EB5055288C}.Release|Any CPU.ActiveCfg = Release
+		{0C49740A-AFC0-40AD-BD43-07EB5055288C}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
