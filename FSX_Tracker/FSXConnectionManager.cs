@@ -130,6 +130,19 @@ namespace FSX_Tracker
             }
         }
 
+        public static bool TestSimconnect()
+        {
+            try
+            {
+                new SimConnect("FSX Plane Tracer", (IntPtr)0, 0, new EventWaitHandle(false, EventResetMode.AutoReset), 0).Dispose();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false; 
+            }
+        }
+
         public bool SendDataToSimconnect(SimConnectDataStruct data)
         {
 

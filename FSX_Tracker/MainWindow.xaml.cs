@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
+
 
 
 namespace FSX_Tracker
@@ -10,8 +12,20 @@ namespace FSX_Tracker
     {
         public MainWindow()
         {
+            try
+            {
+                FSXConnectionManager.TestSimconnect();
+            }
+            catch (System.IO.FileLoadException e)
+            {
+                MessageBox.Show("Please install SimConnect SDK");
+                Environment.Exit(-1);
+            }
+            
             InitializeComponent();
             this.DataContext = new MasterViewModel();
+
         }
     }
+
 }
